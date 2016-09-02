@@ -48,7 +48,7 @@
 }
 
 body {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Karla', sans-serif;
   color: #777;
   font-size: 1.6em;
   line-height: 1.6em;
@@ -57,7 +57,12 @@ body {
   word-wrap: break-word;
 }
 
+html {
+  font-family: 'Karla', sans-serif;
+}
+
 a {
+   font-family: 'Karla', sans-serif;
   text-decoration: none;
   -webkit-transition: all 0.3s ease-out;
      -moz-transition: all 0.3s ease-out;
@@ -550,11 +555,11 @@ a:active {
 
 .text-bold { font-weight: 700; }
 
-.lato-font { font-family: 'Lato', sans-serif; }
-.bitter-font { font-family: 'Bitter', serif; }
+.lato-font { font-family: 'Karla', sans-serif; }
+.bitter-font { font-family: 'Karla', serif; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Bitter', serif;
+  font-family: 'Karla', serif;
   font-weight: 400;
   color: #2b2b2b;
   margin: 1.2em 0 1em;
@@ -564,12 +569,12 @@ h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, 
   margin-top: 0;
 }
 
-h1 { font-size: 2.6em; }
-h2 { font-size: 2.2em; }
-h3 { font-size: 1.8em; }
-h4 { font-size: 1.6em; }
-h5 { font-size: 1.4em; }
-h6 { font-size: 1.2em; }
+h1 {  font-family: 'Karla', sans-serif; font-size: 2.6em; }
+h2 {  font-family: 'Karla', sans-serif; font-size: 2.2em; }
+h3 {  font-family: 'Karla', sans-serif; font-size: 1.8em; }
+h4 {  font-family: 'Karla', sans-serif; font-size: 1.6em; }
+h5 {  font-family: 'Karla', sans-serif; font-size: 1.4em; }
+h6 {  font-family: 'Karla', sans-serif; font-size: 1.2em; }
 
 p, span {
   font-size: 1em;
