@@ -1299,7 +1299,8 @@ header {
 }
 
 .services-1-image{
-      height: 550px;
+    height: 550px;
+    margin-top: 70px;
 }
 
 .services-1-image img{
@@ -1312,7 +1313,9 @@ header {
     height: auto;
     margin-bottom: 0px;
     overflow: hidden;
-    padding:0px;
+    padding: 0px;
+    max-height: 500px;
+
 }
 
 .company-description-image img{
@@ -1734,7 +1737,6 @@ header {
 
 .company-description-image img {
   margin-top: 70px;
-  margin-bottom: -80px;
 }
 
 
@@ -2723,23 +2725,23 @@ input[type="number"] {
 /*************************************************************/
 
 #back-to-top {
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  font-size: 25px;
-  position: fixed;
-  bottom: 0;
-  right: 20px;
-  display: none;
-  background: #222;
-  color: #f6f6f6;
-  border: 1px solid #1b1b1b;
-  z-index: 9999;
-  cursor: pointer;
-  -webkit-transition: background 0.3s ease-in-out;
-     -moz-transition: background 0.3s ease-in-out;
-       -o-transition: background 0.3s ease-in-out;
-          transition: background 0.3s ease-in-out;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    display: none;
+    background: rgba(255, 255, 255, 0.28);
+    color: #f6f6f6;
+    border: 1px solid #d6d6d6;
+    z-index: 9999;
+    cursor: pointer;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    -o-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out;
 }
 
 #back-to-top:hover {
